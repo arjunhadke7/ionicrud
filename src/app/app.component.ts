@@ -11,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent {
   public appPages = [
+    // we will add the pages to the menu list dynamically through below object
     {
       title: 'Read',
       url: '/read',
