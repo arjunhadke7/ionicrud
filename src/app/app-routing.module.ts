@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  },  {
+    path: 'read',
+    loadChildren: () => import('./pages/read/read.module').then( m => m.ReadPageModule)
   }
+
 ];
 
 @NgModule({
